@@ -3632,6 +3632,8 @@
                 }
               ]
             },
+
+
             {
               "description": "justificativa_politica_disciplina_1_13",
               "label": "Justificativa da aplicação da política disciplinar (1)",
@@ -3662,16 +3664,48 @@
                 }
               ]
             },
+
+            {
+              "description": "justificativa_politica_disciplina_2_2",
+              "label": "Justificativa da aplicação da política disciplinar (2)",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "TEXT",
+              "displayOrder": 246,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? 12",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "quantidade_politicas_disciplinas_aplicadas"
+                }
+              ]
+            },
             {
               "description": "foto_cracha_politica_2_2",
               "label": "Crachá do colaborador (2)",
               "mandatory": true,
               "visible": false,
               "fieldType": "PHOTO",
-              "displayOrder": 246,
+              "displayOrder": 247,
               "fieldRules": [
                 {
                   "description": "Exibir campo se a resposta for? 12",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "quantidade_politicas_disciplinas_aplicadas"
+                }
+              ]
+            },
+
+            {
+              "description": "justificativa_politica_disciplina_2_3",
+              "label": "Justificativa da aplicação da política disciplinar (2)",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "TEXT",
+              "displayOrder": 248,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? 11",
                   "fieldRuleActionType": "DISPLAY_FIELD",
                   "sourceFieldDescription": "quantidade_politicas_disciplinas_aplicadas"
                 }
@@ -3683,10 +3717,28 @@
               "mandatory": true,
               "visible": false,
               "fieldType": "PHOTO",
-              "displayOrder": 247,
+              "displayOrder": 249,
               "fieldRules": [
                 {
                   "description": "Exibir campo se a resposta for? 11",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "quantidade_politicas_disciplinas_aplicadas"
+                }
+              ]
+            },
+
+
+
+            {
+              "description": "justificativa_politica_disciplina_2_4",
+              "label": "Justificativa da aplicação da política disciplinar (2)",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "TEXT",
+              "displayOrder": 250,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? 10",
                   "fieldRuleActionType": "DISPLAY_FIELD",
                   "sourceFieldDescription": "quantidade_politicas_disciplinas_aplicadas"
                 }
@@ -3698,10 +3750,25 @@
               "mandatory": true,
               "visible": false,
               "fieldType": "PHOTO",
-              "displayOrder": 248,
+              "displayOrder": 251,
               "fieldRules": [
                 {
                   "description": "Exibir campo se a resposta for? 10",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "quantidade_politicas_disciplinas_aplicadas"
+                }
+              ]
+            },
+            {
+              "description": "justificativa_politica_disciplina_2_5",
+              "label": "Justificativa da aplicação da política disciplinar (2)",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "TEXT",
+              "displayOrder": 252,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? 9",
                   "fieldRuleActionType": "DISPLAY_FIELD",
                   "sourceFieldDescription": "quantidade_politicas_disciplinas_aplicadas"
                 }
@@ -3713,10 +3780,25 @@
               "mandatory": true,
               "visible": false,
               "fieldType": "PHOTO",
-              "displayOrder": 249,
+              "displayOrder": 253,
               "fieldRules": [
                 {
                   "description": "Exibir campo se a resposta for? 9",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "quantidade_politicas_disciplinas_aplicadas"
+                }
+              ]
+            },
+            {
+              "description": "justificativa_politica_disciplina_2_6",
+              "label": "Justificativa da aplicação da política disciplinar (2)",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "TEXT",
+              "displayOrder": 254,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? 8",
                   "fieldRuleActionType": "DISPLAY_FIELD",
                   "sourceFieldDescription": "quantidade_politicas_disciplinas_aplicadas"
                 }
@@ -3728,10 +3810,25 @@
               "mandatory": true,
               "visible": false,
               "fieldType": "PHOTO",
-              "displayOrder": 250,
+              "displayOrder": 255,
               "fieldRules": [
                 {
                   "description": "Exibir campo se a resposta for? 8",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "quantidade_politicas_disciplinas_aplicadas"
+                }
+              ]
+            },
+            {
+              "description": "justificativa_politica_disciplina_2_7",
+              "label": "Justificativa da aplicação da política disciplinar (2)",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "TEXT",
+              "displayOrder": 256,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? 7",
                   "fieldRuleActionType": "DISPLAY_FIELD",
                   "sourceFieldDescription": "quantidade_politicas_disciplinas_aplicadas"
                 }
@@ -3743,10 +3840,25 @@
               "mandatory": true,
               "visible": false,
               "fieldType": "PHOTO",
-              "displayOrder": 251,
+              "displayOrder": 257,
               "fieldRules": [
                 {
                   "description": "Exibir campo se a resposta for? 7",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "quantidade_politicas_disciplinas_aplicadas"
+                }
+              ]
+            },
+            {
+              "description": "justificativa_politica_disciplina_2_8",
+              "label": "Justificativa da aplicação da política disciplinar (2)",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "TEXT",
+              "displayOrder": 258,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? 6",
                   "fieldRuleActionType": "DISPLAY_FIELD",
                   "sourceFieldDescription": "quantidade_politicas_disciplinas_aplicadas"
                 }
@@ -3758,10 +3870,25 @@
               "mandatory": true,
               "visible": false,
               "fieldType": "PHOTO",
-              "displayOrder": 252,
+              "displayOrder": 259,
               "fieldRules": [
                 {
                   "description": "Exibir campo se a resposta for? 6",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "quantidade_politicas_disciplinas_aplicadas"
+                }
+              ]
+            },
+            {
+              "description": "justificativa_politica_disciplina_2_9",
+              "label": "Justificativa da aplicação da política disciplinar (2)",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "TEXT",
+              "displayOrder": 260,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? 5",
                   "fieldRuleActionType": "DISPLAY_FIELD",
                   "sourceFieldDescription": "quantidade_politicas_disciplinas_aplicadas"
                 }
@@ -3773,10 +3900,25 @@
               "mandatory": true,
               "visible": false,
               "fieldType": "PHOTO",
-              "displayOrder": 253,
+              "displayOrder": 261,
               "fieldRules": [
                 {
                   "description": "Exibir campo se a resposta for? 5",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "quantidade_politicas_disciplinas_aplicadas"
+                }
+              ]
+            },
+            {
+              "description": "justificativa_politica_disciplina_2_10",
+              "label": "Justificativa da aplicação da política disciplinar (2)",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "TEXT",
+              "displayOrder": 262,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? 4",
                   "fieldRuleActionType": "DISPLAY_FIELD",
                   "sourceFieldDescription": "quantidade_politicas_disciplinas_aplicadas"
                 }
@@ -3788,10 +3930,26 @@
               "mandatory": true,
               "visible": false,
               "fieldType": "PHOTO",
-              "displayOrder": 254,
+              "displayOrder": 263,
               "fieldRules": [
                 {
                   "description": "Exibir campo se a resposta for? 4",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "quantidade_politicas_disciplinas_aplicadas"
+                }
+              ]
+            },
+
+            {
+              "description": "justificativa_politica_disciplina_2_11",
+              "label": "Justificativa da aplicação da política disciplinar (2)",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "TEXT",
+              "displayOrder": 264,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? 3",
                   "fieldRuleActionType": "DISPLAY_FIELD",
                   "sourceFieldDescription": "quantidade_politicas_disciplinas_aplicadas"
                 }
@@ -3803,10 +3961,26 @@
               "mandatory": true,
               "visible": false,
               "fieldType": "PHOTO",
-              "displayOrder": 255,
+              "displayOrder": 265,
               "fieldRules": [
                 {
                   "description": "Exibir campo se a resposta for? 3",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "quantidade_politicas_disciplinas_aplicadas"
+                }
+              ]
+            },
+
+            {
+              "description": "justificativa_politica_disciplina_2_12",
+              "label": "Justificativa da aplicação da política disciplinar (2)",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "TEXT",
+              "displayOrder": 266,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? 2",
                   "fieldRuleActionType": "DISPLAY_FIELD",
                   "sourceFieldDescription": "quantidade_politicas_disciplinas_aplicadas"
                 }
@@ -3818,7 +3992,7 @@
               "mandatory": true,
               "visible": false,
               "fieldType": "PHOTO",
-              "displayOrder": 256,
+              "displayOrder": 267,
               "fieldRules": [
                 {
                   "description": "Exibir campo se a resposta for? 2",
@@ -3826,7 +4000,1712 @@
                   "sourceFieldDescription": "quantidade_politicas_disciplinas_aplicadas"
                 }
               ]
-            }
+            },
+
+
+            {
+              "description": "justificativa_politica_disciplina_3_2",
+              "label": "Justificativa da aplicação da política disciplinar (3)",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "TEXT",
+              "displayOrder": 268,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? 12",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "quantidade_politicas_disciplinas_aplicadas"
+                }
+              ]
+            },
+            {
+              "description": "foto_cracha_politica_3_2",
+              "label": "Crachá do colaborador (3)",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "PHOTO",
+              "displayOrder": 269,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? 12",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "quantidade_politicas_disciplinas_aplicadas"
+                }
+              ]
+            },
+
+            {
+              "description": "justificativa_politica_disciplina_3_3",
+              "label": "Justificativa da aplicação da política disciplinar (3)",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "TEXT",
+              "displayOrder": 270,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? 11",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "quantidade_politicas_disciplinas_aplicadas"
+                }
+              ]
+            },
+            {
+              "description": "foto_cracha_politica_3_3",
+              "label": "Crachá do colaborador (3)",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "PHOTO",
+              "displayOrder": 271,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? 11",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "quantidade_politicas_disciplinas_aplicadas"
+                }
+              ]
+            },
+
+            {
+              "description": "justificativa_politica_disciplina_3_4",
+              "label": "Justificativa da aplicação da política disciplinar (3)",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "TEXT",
+              "displayOrder": 272,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? 10",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "quantidade_politicas_disciplinas_aplicadas"
+                }
+              ]
+            },
+            {
+              "description": "foto_cracha_politica_3_4",
+              "label": "Crachá do colaborador (3)",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "PHOTO",
+              "displayOrder": 273,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? 10",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "quantidade_politicas_disciplinas_aplicadas"
+                }
+              ]
+            },
+            {
+              "description": "justificativa_politica_disciplina_3_5",
+              "label": "Justificativa da aplicação da política disciplinar (3)",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "TEXT",
+              "displayOrder": 274,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? 9",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "quantidade_politicas_disciplinas_aplicadas"
+                }
+              ]
+            },
+            {
+              "description": "foto_cracha_politica_3_5",
+              "label": "Crachá do colaborador (3)",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "PHOTO",
+              "displayOrder": 275,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? 9",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "quantidade_politicas_disciplinas_aplicadas"
+                }
+              ]
+            },
+            {
+              "description": "justificativa_politica_disciplina_3_6",
+              "label": "Justificativa da aplicação da política disciplinar (3)",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "TEXT",
+              "displayOrder": 276,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? 8",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "quantidade_politicas_disciplinas_aplicadas"
+                }
+              ]
+            },
+            {
+              "description": "foto_cracha_politica_3_6",
+              "label": "Crachá do colaborador (3)",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "PHOTO",
+              "displayOrder": 277,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? 8",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "quantidade_politicas_disciplinas_aplicadas"
+                }
+              ]
+            },
+            {
+              "description": "justificativa_politica_disciplina_3_7",
+              "label": "Justificativa da aplicação da política disciplinar (3)",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "TEXT",
+              "displayOrder": 278,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? 7",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "quantidade_politicas_disciplinas_aplicadas"
+                }
+              ]
+            },
+            {
+              "description": "foto_cracha_politica_3_7",
+              "label": "Crachá do colaborador (3)",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "PHOTO",
+              "displayOrder": 279,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? 7",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "quantidade_politicas_disciplinas_aplicadas"
+                }
+              ]
+            },
+            {
+              "description": "justificativa_politica_disciplina_3_8",
+              "label": "Justificativa da aplicação da política disciplinar (3)",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "TEXT",
+              "displayOrder": 280,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? 6",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "quantidade_politicas_disciplinas_aplicadas"
+                }
+              ]
+            },
+            {
+              "description": "foto_cracha_politica_3_8",
+              "label": "Crachá do colaborador (3)",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "PHOTO",
+              "displayOrder": 281,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? 6",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "quantidade_politicas_disciplinas_aplicadas"
+                }
+              ]
+            },
+            {
+              "description": "justificativa_politica_disciplina_3_9",
+              "label": "Justificativa da aplicação da política disciplinar (3)",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "TEXT",
+              "displayOrder": 282,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? 5",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "quantidade_politicas_disciplinas_aplicadas"
+                }
+              ]
+            },
+            {
+              "description": "foto_cracha_politica_3_9",
+              "label": "Crachá do colaborador (3)",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "PHOTO",
+              "displayOrder": 283,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? 5",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "quantidade_politicas_disciplinas_aplicadas"
+                }
+              ]
+            },
+            {
+              "description": "justificativa_politica_disciplina_3_10",
+              "label": "Justificativa da aplicação da política disciplinar (3)",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "TEXT",
+              "displayOrder": 284,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? 4",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "quantidade_politicas_disciplinas_aplicadas"
+                }
+              ]
+            },
+            {
+              "description": "foto_cracha_politica_3_10",
+              "label": "Crachá do colaborador (3)",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "PHOTO",
+              "displayOrder": 285,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? 4",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "quantidade_politicas_disciplinas_aplicadas"
+                }
+              ]
+            },
+            {
+              "description": "justificativa_politica_disciplina_3_11",
+              "label": "Justificativa da aplicação da política disciplinar (3)",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "TEXT",
+              "displayOrder": 286,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? 3",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "quantidade_politicas_disciplinas_aplicadas"
+                }
+              ]
+            },
+            {
+              "description": "foto_cracha_politica_3_11",
+              "label": "Crachá do colaborador (3)",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "PHOTO",
+              "displayOrder": 287,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? 3",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "quantidade_politicas_disciplinas_aplicadas"
+                }
+              ]
+            },
+
+            
+
+            {
+              "description": "justificativa_politica_disciplina_4_2",
+              "label": "Justificativa da aplicação da política disciplinar (4)",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "TEXT",
+              "displayOrder": 288,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? 12",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "quantidade_politicas_disciplinas_aplicadas"
+                }
+              ]
+            },
+            {
+              "description": "foto_cracha_politica_4_2",
+              "label": "Crachá do colaborador (4)",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "PHOTO",
+              "displayOrder": 289,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? 12",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "quantidade_politicas_disciplinas_aplicadas"
+                }
+              ]
+            },
+            {
+              "description": "justificativa_politica_disciplina_4_3",
+              "label": "Justificativa da aplicação da política disciplinar (4)",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "TEXT",
+              "displayOrder": 290,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? 11",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "quantidade_politicas_disciplinas_aplicadas"
+                }
+              ]
+            },
+            {
+              "description": "foto_cracha_politica_4_3",
+              "label": "Crachá do colaborador (4)",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "PHOTO",
+              "displayOrder": 291,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? 11",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "quantidade_politicas_disciplinas_aplicadas"
+                }
+              ]
+            },
+
+            {
+              "description": "justificativa_politica_disciplina_4_4",
+              "label": "Justificativa da aplicação da política disciplinar (4)",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "TEXT",
+              "displayOrder": 292,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? 10",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "quantidade_politicas_disciplinas_aplicadas"
+                }
+              ]
+            },
+            {
+              "description": "foto_cracha_politica_4_4",
+              "label": "Crachá do colaborador (4)",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "PHOTO",
+              "displayOrder": 293,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? 10",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "quantidade_politicas_disciplinas_aplicadas"
+                }
+              ]
+            },
+            {
+              "description": "justificativa_politica_disciplina_4_5",
+              "label": "Justificativa da aplicação da política disciplinar (4)",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "TEXT",
+              "displayOrder": 294,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? 9",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "quantidade_politicas_disciplinas_aplicadas"
+                }
+              ]
+            },
+            {
+              "description": "foto_cracha_politica_4_5",
+              "label": "Crachá do colaborador (4)",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "PHOTO",
+              "displayOrder": 295,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? 9",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "quantidade_politicas_disciplinas_aplicadas"
+                }
+              ]
+            },
+            {
+              "description": "justificativa_politica_disciplina_4_6",
+              "label": "Justificativa da aplicação da política disciplinar (4)",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "TEXT",
+              "displayOrder": 296,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? 8",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "quantidade_politicas_disciplinas_aplicadas"
+                }
+              ]
+            },
+            {
+              "description": "foto_cracha_politica_4_6",
+              "label": "Crachá do colaborador (4)",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "PHOTO",
+              "displayOrder": 297,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? 8",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "quantidade_politicas_disciplinas_aplicadas"
+                }
+              ]
+            },
+            {
+              "description": "justificativa_politica_disciplina_4_7",
+              "label": "Justificativa da aplicação da política disciplinar (4)",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "TEXT",
+              "displayOrder": 298,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? 7",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "quantidade_politicas_disciplinas_aplicadas"
+                }
+              ]
+            },
+            {
+              "description": "foto_cracha_politica_4_7",
+              "label": "Crachá do colaborador (4)",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "PHOTO",
+              "displayOrder": 299,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? 7",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "quantidade_politicas_disciplinas_aplicadas"
+                }
+              ]
+            },
+            {
+              "description": "justificativa_politica_disciplina_4_8",
+              "label": "Justificativa da aplicação da política disciplinar (4)",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "TEXT",
+              "displayOrder": 300,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? 6",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "quantidade_politicas_disciplinas_aplicadas"
+                }
+              ]
+            },
+            {
+              "description": "foto_cracha_politica_4_8",
+              "label": "Crachá do colaborador (4)",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "PHOTO",
+              "displayOrder": 301,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? 6",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "quantidade_politicas_disciplinas_aplicadas"
+                }
+              ]
+            },
+            {
+              "description": "justificativa_politica_disciplina_4_9",
+              "label": "Justificativa da aplicação da política disciplinar (4)",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "TEXT",
+              "displayOrder": 302,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? 5",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "quantidade_politicas_disciplinas_aplicadas"
+                }
+              ]
+            },
+            {
+              "description": "foto_cracha_politica_4_9",
+              "label": "Crachá do colaborador (4)",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "PHOTO",
+              "displayOrder": 303,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? 5",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "quantidade_politicas_disciplinas_aplicadas"
+                }
+              ]
+            },
+            {
+              "description": "justificativa_politica_disciplina_4_10",
+              "label": "Justificativa da aplicação da política disciplinar (4)",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "TEXT",
+              "displayOrder": 304,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? 4",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "quantidade_politicas_disciplinas_aplicadas"
+                }
+              ]
+            },
+            {
+              "description": "foto_cracha_politica_4_10",
+              "label": "Crachá do colaborador (4)",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "PHOTO",
+              "displayOrder": 305,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? 4",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "quantidade_politicas_disciplinas_aplicadas"
+                }
+              ]
+            },
+
+
+
+            {
+              "description": "justificativa_politica_disciplina_5_2",
+              "label": "Justificativa da aplicação da política disciplinar (5)",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "TEXT",
+              "displayOrder": 306,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? 12",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "quantidade_politicas_disciplinas_aplicadas"
+                }
+              ]
+            },
+            {
+              "description": "foto_cracha_politica_5_2",
+              "label": "Crachá do colaborador (5)",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "PHOTO",
+              "displayOrder": 307,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? 12",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "quantidade_politicas_disciplinas_aplicadas"
+                }
+              ]
+            },
+
+
+            {
+              "description": "justificativa_politica_disciplina_5_3",
+              "label": "Justificativa da aplicação da política disciplinar (5)",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "TEXT",
+              "displayOrder": 308,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? 11",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "quantidade_politicas_disciplinas_aplicadas"
+                }
+              ]
+            },
+            {
+              "description": "foto_cracha_politica_5_3",
+              "label": "Crachá do colaborador (5)",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "PHOTO",
+              "displayOrder": 309,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? 11",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "quantidade_politicas_disciplinas_aplicadas"
+                }
+              ]
+            },
+
+            {
+              "description": "justificativa_politica_disciplina_5_4",
+              "label": "Justificativa da aplicação da política disciplinar (5)",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "TEXT",
+              "displayOrder": 310,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? 10",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "quantidade_politicas_disciplinas_aplicadas"
+                }
+              ]
+            },
+            {
+              "description": "foto_cracha_politica_5_4",
+              "label": "Crachá do colaborador (5)",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "PHOTO",
+              "displayOrder": 311,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? 10",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "quantidade_politicas_disciplinas_aplicadas"
+                }
+              ]
+            },
+            {
+              "description": "justificativa_politica_disciplina_5_5",
+              "label": "Justificativa da aplicação da política disciplinar (5)",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "TEXT",
+              "displayOrder": 312,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? 9",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "quantidade_politicas_disciplinas_aplicadas"
+                }
+              ]
+            },
+            {
+              "description": "foto_cracha_politica_5_5",
+              "label": "Crachá do colaborador (5)",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "PHOTO",
+              "displayOrder": 313,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? 9",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "quantidade_politicas_disciplinas_aplicadas"
+                }
+              ]
+            },
+            {
+              "description": "justificativa_politica_disciplina_5_6",
+              "label": "Justificativa da aplicação da política disciplinar (5)",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "TEXT",
+              "displayOrder": 314,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? 8",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "quantidade_politicas_disciplinas_aplicadas"
+                }
+              ]
+            },
+            {
+              "description": "foto_cracha_politica_5_6",
+              "label": "Crachá do colaborador (5)",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "PHOTO",
+              "displayOrder": 315,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? 8",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "quantidade_politicas_disciplinas_aplicadas"
+                }
+              ]
+            },
+            {
+              "description": "justificativa_politica_disciplina_5_7",
+              "label": "Justificativa da aplicação da política disciplinar (5)",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "TEXT",
+              "displayOrder": 316,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? 7",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "quantidade_politicas_disciplinas_aplicadas"
+                }
+              ]
+            },
+            {
+              "description": "foto_cracha_politica_5_7",
+              "label": "Crachá do colaborador (5)",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "PHOTO",
+              "displayOrder": 317,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? 7",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "quantidade_politicas_disciplinas_aplicadas"
+                }
+              ]
+            },
+            {
+              "description": "justificativa_politica_disciplina_5_8",
+              "label": "Justificativa da aplicação da política disciplinar (5)",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "TEXT",
+              "displayOrder": 318,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? 6",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "quantidade_politicas_disciplinas_aplicadas"
+                }
+              ]
+            },
+            {
+              "description": "foto_cracha_politica_5_8",
+              "label": "Crachá do colaborador (5)",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "PHOTO",
+              "displayOrder": 319,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? 6",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "quantidade_politicas_disciplinas_aplicadas"
+                }
+              ]
+            },
+            {
+              "description": "justificativa_politica_disciplina_5_9",
+              "label": "Justificativa da aplicação da política disciplinar (5)",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "TEXT",
+              "displayOrder": 320,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? 5",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "quantidade_politicas_disciplinas_aplicadas"
+                }
+              ]
+            },
+            {
+              "description": "foto_cracha_politica_5_9",
+              "label": "Crachá do colaborador (5)",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "PHOTO",
+              "displayOrder": 321,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? 5",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "quantidade_politicas_disciplinas_aplicadas"
+                }
+              ]
+            },
+
+
+
+            {
+              "description": "justificativa_politica_disciplina_6_2",
+              "label": "Justificativa da aplicação da política disciplinar (6)",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "TEXT",
+              "displayOrder": 322,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? 12",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "quantidade_politicas_disciplinas_aplicadas"
+                }
+              ]
+            },
+            {
+              "description": "foto_cracha_politica_6_2",
+              "label": "Crachá do colaborador (6)",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "PHOTO",
+              "displayOrder": 323,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? 12",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "quantidade_politicas_disciplinas_aplicadas"
+                }
+              ]
+            },
+
+
+            {
+              "description": "justificativa_politica_disciplina_6_3",
+              "label": "Justificativa da aplicação da política disciplinar (6)",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "TEXT",
+              "displayOrder": 324,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? 11",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "quantidade_politicas_disciplinas_aplicadas"
+                }
+              ]
+            },
+            {
+              "description": "foto_cracha_politica_6_3",
+              "label": "Crachá do colaborador (6)",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "PHOTO",
+              "displayOrder": 325,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? 11",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "quantidade_politicas_disciplinas_aplicadas"
+                }
+              ]
+            },
+
+
+
+            {
+              "description": "justificativa_politica_disciplina_6_4",
+              "label": "Justificativa da aplicação da política disciplinar (6)",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "TEXT",
+              "displayOrder": 326,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? 10",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "quantidade_politicas_disciplinas_aplicadas"
+                }
+              ]
+            },
+            {
+              "description": "foto_cracha_politica_6_4",
+              "label": "Crachá do colaborador (6)",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "PHOTO",
+              "displayOrder": 327,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? 10",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "quantidade_politicas_disciplinas_aplicadas"
+                }
+              ]
+            },
+            {
+              "description": "justificativa_politica_disciplina_6_5",
+              "label": "Justificativa da aplicação da política disciplinar (6)",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "TEXT",
+              "displayOrder": 328,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? 9",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "quantidade_politicas_disciplinas_aplicadas"
+                }
+              ]
+            },
+            {
+              "description": "foto_cracha_politica_6_5",
+              "label": "Crachá do colaborador (6)",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "PHOTO",
+              "displayOrder": 329,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? 9",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "quantidade_politicas_disciplinas_aplicadas"
+                }
+              ]
+            },
+            {
+              "description": "justificativa_politica_disciplina_6_6",
+              "label": "Justificativa da aplicação da política disciplinar (6)",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "TEXT",
+              "displayOrder": 330,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? 8",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "quantidade_politicas_disciplinas_aplicadas"
+                }
+              ]
+            },
+            {
+              "description": "foto_cracha_politica_6_6",
+              "label": "Crachá do colaborador (6)",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "PHOTO",
+              "displayOrder": 331,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? 8",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "quantidade_politicas_disciplinas_aplicadas"
+                }
+              ]
+            },
+            {
+              "description": "justificativa_politica_disciplina_6_7",
+              "label": "Justificativa da aplicação da política disciplinar (6)",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "TEXT",
+              "displayOrder": 332,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? 7",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "quantidade_politicas_disciplinas_aplicadas"
+                }
+              ]
+            },
+            {
+              "description": "foto_cracha_politica_6_7",
+              "label": "Crachá do colaborador (6)",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "PHOTO",
+              "displayOrder": 333,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? 7",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "quantidade_politicas_disciplinas_aplicadas"
+                }
+              ]
+            },
+            {
+              "description": "justificativa_politica_disciplina_6_8",
+              "label": "Justificativa da aplicação da política disciplinar (6)",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "TEXT",
+              "displayOrder": 334,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? 6",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "quantidade_politicas_disciplinas_aplicadas"
+                }
+              ]
+            },
+            {
+              "description": "foto_cracha_politica_6_8",
+              "label": "Crachá do colaborador (6)",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "PHOTO",
+              "displayOrder": 335,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? 6",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "quantidade_politicas_disciplinas_aplicadas"
+                }
+              ]
+            },
+
+
+
+            {
+              "description": "justificativa_politica_disciplina_7_2",
+              "label": "Justificativa da aplicação da política disciplinar (7)",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "TEXT",
+              "displayOrder": 336,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? 12",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "quantidade_politicas_disciplinas_aplicadas"
+                }
+              ]
+            },
+            {
+              "description": "foto_cracha_politica_7_2",
+              "label": "Crachá do colaborador (7)",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "PHOTO",
+              "displayOrder": 337,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? 12",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "quantidade_politicas_disciplinas_aplicadas"
+                }
+              ]
+            },
+            {
+              "description": "justificativa_politica_disciplina_7_3",
+              "label": "Justificativa da aplicação da política disciplinar (7)",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "TEXT",
+              "displayOrder": 338,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? 11",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "quantidade_politicas_disciplinas_aplicadas"
+                }
+              ]
+            },
+            {
+              "description": "foto_cracha_politica_7_3",
+              "label": "Crachá do colaborador (7)",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "PHOTO",
+              "displayOrder": 339,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? 11",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "quantidade_politicas_disciplinas_aplicadas"
+                }
+              ]
+            },
+
+
+            {
+              "description": "justificativa_politica_disciplina_7_4",
+              "label": "Justificativa da aplicação da política disciplinar (7)",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "TEXT",
+              "displayOrder": 340,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? 10",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "quantidade_politicas_disciplinas_aplicadas"
+                }
+              ]
+            },
+            {
+              "description": "foto_cracha_politica_7_4",
+              "label": "Crachá do colaborador (7)",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "PHOTO",
+              "displayOrder": 341,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? 10",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "quantidade_politicas_disciplinas_aplicadas"
+                }
+              ]
+            },
+            {
+              "description": "justificativa_politica_disciplina_7_5",
+              "label": "Justificativa da aplicação da política disciplinar (7)",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "TEXT",
+              "displayOrder": 342,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? 9",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "quantidade_politicas_disciplinas_aplicadas"
+                }
+              ]
+            },
+            {
+              "description": "foto_cracha_politica_7_5",
+              "label": "Crachá do colaborador (7)",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "PHOTO",
+              "displayOrder": 343,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? 9",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "quantidade_politicas_disciplinas_aplicadas"
+                }
+              ]
+            },
+            {
+              "description": "justificativa_politica_disciplina_7_6",
+              "label": "Justificativa da aplicação da política disciplinar (7)",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "TEXT",
+              "displayOrder": 344,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? 8",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "quantidade_politicas_disciplinas_aplicadas"
+                }
+              ]
+            },
+            {
+              "description": "foto_cracha_politica_7_6",
+              "label": "Crachá do colaborador (7)",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "PHOTO",
+              "displayOrder": 345,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? 8",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "quantidade_politicas_disciplinas_aplicadas"
+                }
+              ]
+            },
+            {
+              "description": "justificativa_politica_disciplina_7_7",
+              "label": "Justificativa da aplicação da política disciplinar (7)",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "TEXT",
+              "displayOrder": 346,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? 7",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "quantidade_politicas_disciplinas_aplicadas"
+                }
+              ]
+            },
+            {
+              "description": "foto_cracha_politica_7_7",
+              "label": "Crachá do colaborador (7)",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "PHOTO",
+              "displayOrder": 347,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? 7",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "quantidade_politicas_disciplinas_aplicadas"
+                }
+              ]
+            },
+
+
+
+
+            {
+              "description": "justificativa_politica_disciplina_8_2",
+              "label": "Justificativa da aplicação da política disciplinar (8)",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "TEXT",
+              "displayOrder": 348,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? 12",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "quantidade_politicas_disciplinas_aplicadas"
+                }
+              ]
+            },
+            {
+              "description": "foto_cracha_politica_8_2",
+              "label": "Crachá do colaborador (8)",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "PHOTO",
+              "displayOrder": 349,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? 12",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "quantidade_politicas_disciplinas_aplicadas"
+                }
+              ]
+            },
+            {
+              "description": "justificativa_politica_disciplina_8_3",
+              "label": "Justificativa da aplicação da política disciplinar (8)",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "TEXT",
+              "displayOrder": 350,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? 11",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "quantidade_politicas_disciplinas_aplicadas"
+                }
+              ]
+            },
+            {
+              "description": "foto_cracha_politica_8_3",
+              "label": "Crachá do colaborador (8)",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "PHOTO",
+              "displayOrder": 351,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? 11",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "quantidade_politicas_disciplinas_aplicadas"
+                }
+              ]
+            },
+
+
+            {
+              "description": "justificativa_politica_disciplina_8_4",
+              "label": "Justificativa da aplicação da política disciplinar (8)",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "TEXT",
+              "displayOrder": 352,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? 10",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "quantidade_politicas_disciplinas_aplicadas"
+                }
+              ]
+            },
+            {
+              "description": "foto_cracha_politica_8_4",
+              "label": "Crachá do colaborador (8)",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "PHOTO",
+              "displayOrder": 353,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? 10",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "quantidade_politicas_disciplinas_aplicadas"
+                }
+              ]
+            },
+            {
+              "description": "justificativa_politica_disciplina_8_5",
+              "label": "Justificativa da aplicação da política disciplinar (8)",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "TEXT",
+              "displayOrder": 354,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? 9",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "quantidade_politicas_disciplinas_aplicadas"
+                }
+              ]
+            },
+            {
+              "description": "foto_cracha_politica_8_5",
+              "label": "Crachá do colaborador (8)",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "PHOTO",
+              "displayOrder": 355,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? 9",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "quantidade_politicas_disciplinas_aplicadas"
+                }
+              ]
+            },
+            {
+              "description": "justificativa_politica_disciplina_8_6",
+              "label": "Justificativa da aplicação da política disciplinar (8)",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "TEXT",
+              "displayOrder": 356,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? 8",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "quantidade_politicas_disciplinas_aplicadas"
+                }
+              ]
+            },
+            {
+              "description": "foto_cracha_politica_8_6",
+              "label": "Crachá do colaborador (8)",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "PHOTO",
+              "displayOrder": 357,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? 8",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "quantidade_politicas_disciplinas_aplicadas"
+                }
+              ]
+            },
+
+
+            {
+              "description": "justificativa_politica_disciplina_9_2",
+              "label": "Justificativa da aplicação da política disciplinar (9)",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "TEXT",
+              "displayOrder": 358,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? 12",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "quantidade_politicas_disciplinas_aplicadas"
+                }
+              ]
+            },
+            {
+              "description": "foto_cracha_politica_9_2",
+              "label": "Crachá do colaborador (9)",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "PHOTO",
+              "displayOrder": 359,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? 12",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "quantidade_politicas_disciplinas_aplicadas"
+                }
+              ]
+            },
+            {
+              "description": "justificativa_politica_disciplina_9_3",
+              "label": "Justificativa da aplicação da política disciplinar (9)",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "TEXT",
+              "displayOrder": 360,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? 11",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "quantidade_politicas_disciplinas_aplicadas"
+                }
+              ]
+            },
+            {
+              "description": "foto_cracha_politica_9_3",
+              "label": "Crachá do colaborador (9)",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "PHOTO",
+              "displayOrder": 361,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? 11",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "quantidade_politicas_disciplinas_aplicadas"
+                }
+              ]
+            },
+
+            {
+              "description": "justificativa_politica_disciplina_9_3",
+              "label": "Justificativa da aplicação da política disciplinar (9)",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "TEXT",
+              "displayOrder": 362,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? 10",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "quantidade_politicas_disciplinas_aplicadas"
+                }
+              ]
+            },
+            {
+              "description": "foto_cracha_politica_9_4",
+              "label": "Crachá do colaborador (9)",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "PHOTO",
+              "displayOrder": 363,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? 10",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "quantidade_politicas_disciplinas_aplicadas"
+                }
+              ]
+            },
+            {
+              "description": "justificativa_politica_disciplina_9_5",
+              "label": "Justificativa da aplicação da política disciplinar (9)",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "TEXT",
+              "displayOrder": 364,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? 9",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "quantidade_politicas_disciplinas_aplicadas"
+                }
+              ]
+            },
+            {
+              "description": "foto_cracha_politica_9_5",
+              "label": "Crachá do colaborador (9)",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "PHOTO",
+              "displayOrder": 365,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? 9",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "quantidade_politicas_disciplinas_aplicadas"
+                }
+              ]
+            },
+
+
+            {
+              "description": "justificativa_politica_disciplina_10_2",
+              "label": "Justificativa da aplicação da política disciplinar (10)",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "TEXT",
+              "displayOrder": 366,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? 12",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "quantidade_politicas_disciplinas_aplicadas"
+                }
+              ]
+            },
+            {
+              "description": "foto_cracha_politica_10_2",
+              "label": "Crachá do colaborador (10)",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "PHOTO",
+              "displayOrder": 367,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? 12",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "quantidade_politicas_disciplinas_aplicadas"
+                }
+              ]
+            },
+            {
+              "description": "justificativa_politica_disciplina_10_3",
+              "label": "Justificativa da aplicação da política disciplinar (10)",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "TEXT",
+              "displayOrder": 368,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? 11",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "quantidade_politicas_disciplinas_aplicadas"
+                }
+              ]
+            },
+            {
+              "description": "foto_cracha_politica_10_3",
+              "label": "Crachá do colaborador (10)",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "PHOTO",
+              "displayOrder": 369,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? 11",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "quantidade_politicas_disciplinas_aplicadas"
+                }
+              ]
+            },
+
+            {
+              "description": "justificativa_politica_disciplina_10_4",
+              "label": "Justificativa da aplicação da política disciplinar (10)",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "TEXT",
+              "displayOrder": 370,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? 10",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "quantidade_politicas_disciplinas_aplicadas"
+                }
+              ]
+            },
+            {
+              "description": "foto_cracha_politica_10_4",
+              "label": "Crachá do colaborador (10)",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "PHOTO",
+              "displayOrder": 371,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? 10",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "quantidade_politicas_disciplinas_aplicadas"
+                }
+              ]
+            },
+
+            {
+              "description": "justificativa_politica_disciplina_11_2",
+              "label": "Justificativa da aplicação da política disciplinar (11)",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "TEXT",
+              "displayOrder": 372,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? 12",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "quantidade_politicas_disciplinas_aplicadas"
+                }
+              ]
+            },
+            {
+              "description": "foto_cracha_politica_11_2",
+              "label": "Crachá do colaborador (11)",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "PHOTO",
+              "displayOrder": 373,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? 12",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "quantidade_politicas_disciplinas_aplicadas"
+                }
+              ]
+            },
+
+            {
+              "description": "justificativa_politica_disciplina_11_3",
+              "label": "Justificativa da aplicação da política disciplinar (11)",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "TEXT",
+              "displayOrder": 374,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? 11",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "quantidade_politicas_disciplinas_aplicadas"
+                }
+              ]
+            },
+            {
+              "description": "foto_cracha_politica_11_3",
+              "label": "Crachá do colaborador (11)",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "PHOTO",
+              "displayOrder": 374,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? 11",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "quantidade_politicas_disciplinas_aplicadas"
+                }
+              ]
+            },
+
+            {
+              "description": "justificativa_politica_disciplina_12_2",
+              "label": "Justificativa da aplicação da política disciplinar (12)",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "TEXT",
+              "displayOrder": 375,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? 12",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "quantidade_politicas_disciplinas_aplicadas"
+                }
+              ]
+            },
+            {
+              "description": "foto_cracha_politica_12_2",
+              "label": "Crachá do colaborador (12)",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "PHOTO",
+              "displayOrder": 376,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? 12",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "quantidade_politicas_disciplinas_aplicadas"
+                }
+              ]
+            },
+
+
+
+
+            
+
+
+
+            
+
+
+
+
 
           ]
         }
