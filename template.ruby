@@ -1474,7 +1474,7 @@
             },
             {
               "description": "faltas",
-              "label": "Falta (S)",
+              "label": "Falta(s)",
               "mandatory": true,
               "visible": true,
               "fieldType": "BOOLEAN",
@@ -5693,6 +5693,512 @@
                 }
               ]
             },
+
+            {
+              "description": "ocorrencias",
+              "label": "Ocorrência(s) a informar",
+              "mandatory": true,
+              "visible": true,
+              "fieldType": "BOOLEAN",
+              "displayOrder": 377,
+            },
+
+            {
+              "description": "quantidade_ocorrencias",
+              "label": "Quantidade de ocorrências",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "LIST",
+              "fieldValues": [
+                { "value": "1" },
+                { "value": "2" },
+                { "value": "3" },
+                { "value": "4" },
+                { "value": "5" },
+              ],
+              "fieldRules": [
+                "description": "Exibir campo se a resposta for? Sim",
+                "fieldRuleActionType": "DISPLAY_FIELD",
+                "sourceFieldDescription": "ocorrencias",
+              ],
+              "displayOrder": 378,
+            },
+
+            {
+              "description": "justificativa_ocorrencia_1",
+              "label": "Justificativa da ocorrência (1)",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "TEXT",
+              "displayOrder": 379,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? 5",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "quantidade_ocorrencias"
+                }
+              ]
+            },
+            {
+              "description": "foto_ocorrencia_1",
+              "label": "Ocorrência (1)",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "PHOTO",
+              "displayOrder": 380,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? 5",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "quantidade_ocorrencias"
+                }
+              ]
+            },
+
+            {
+              "description": "justificativa_ocorrencia_2",
+              "label": "Justificativa da ocorrência (2)",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "TEXT",
+              "displayOrder": 381,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? 5",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "quantidade_ocorrencias"
+                }
+              ]
+            },
+            {
+              "description": "foto_ocorrencia_2",
+              "label": "Ocorrência (2)",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "PHOTO",
+              "displayOrder": 382,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? 5",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "quantidade_ocorrencias"
+                }
+              ]
+            },
+
+            {
+              "description": "justificativa_ocorrencia_3",
+              "label": "Justificativa da ocorrência (3)",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "TEXT",
+              "displayOrder": 383,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? 5",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "quantidade_ocorrencias"
+                }
+              ]
+            },
+            {
+              "description": "foto_ocorrencia_3",
+              "label": "Ocorrência (3)",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "PHOTO",
+              "displayOrder": 384,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? 5",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "quantidade_ocorrencias"
+                }
+              ]
+            },
+
+            {
+              "description": "justificativa_ocorrencia_4",
+              "label": "Justificativa da ocorrência (4)",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "TEXT",
+              "displayOrder": 385,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? 5",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "quantidade_ocorrencias"
+                }
+              ]
+            },
+            {
+              "description": "foto_ocorrencia_4",
+              "label": "Ocorrência (4)",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "PHOTO",
+              "displayOrder": 386,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? 5",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "quantidade_ocorrencias"
+                }
+              ]
+            },
+
+            {
+              "description": "justificativa_ocorrencia_5",
+              "label": "Justificativa da ocorrência (5)",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "TEXT",
+              "displayOrder": 387,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? 5",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "quantidade_ocorrencias"
+                }
+              ]
+            },
+            {
+              "description": "foto_ocorrencia_5",
+              "label": "Ocorrência (5)",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "PHOTO",
+              "displayOrder": 388,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? 5",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "quantidade_ocorrencias"
+                }
+              ]
+            },
+
+            {
+              "description": "justificativa_ocorrencia_1_2",
+              "label": "Justificativa da ocorrência (1)",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "TEXT",
+              "displayOrder": 389,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? 4",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "quantidade_ocorrencias"
+                }
+              ]
+            },
+            {
+              "description": "foto_ocorrencia_1_2",
+              "label": "Ocorrência (1)",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "PHOTO",
+              "displayOrder": 390,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? 4",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "quantidade_ocorrencias"
+                }
+              ]
+            },
+
+            {
+              "description": "justificativa_ocorrencia_1_3",
+              "label": "Justificativa da ocorrência (1)",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "TEXT",
+              "displayOrder": 391,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? 3",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "quantidade_ocorrencias"
+                }
+              ]
+            },
+            {
+              "description": "foto_ocorrencia_1_3",
+              "label": "Ocorrência (1)",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "PHOTO",
+              "displayOrder": 392,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? 3",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "quantidade_ocorrencias"
+                }
+              ]
+            },
+
+            {
+              "description": "justificativa_ocorrencia_1_4",
+              "label": "Justificativa da ocorrência (1)",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "TEXT",
+              "displayOrder": 393,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? 2",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "quantidade_ocorrencias"
+                }
+              ]
+            },
+            {
+              "description": "foto_ocorrencia_1_3",
+              "label": "Ocorrência (1)",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "PHOTO",
+              "displayOrder": 394,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? 2",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "quantidade_ocorrencias"
+                }
+              ]
+            },
+
+            {
+              "description": "justificativa_ocorrencia_1_5",
+              "label": "Justificativa da ocorrência (1)",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "TEXT",
+              "displayOrder": 395,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? 1",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "quantidade_ocorrencias"
+                }
+              ]
+            },
+            {
+              "description": "foto_ocorrencia_1_5",
+              "label": "Ocorrência (1)",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "PHOTO",
+              "displayOrder": 396,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? 1",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "quantidade_ocorrencias"
+                }
+              ]
+            },
+
+            {
+              "description": "justificativa_ocorrencia_2_2",
+              "label": "Justificativa da ocorrência (2)",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "TEXT",
+              "displayOrder": 397,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? 4",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "quantidade_ocorrencias"
+                }
+              ]
+            },
+            {
+              "description": "foto_ocorrencia_2_2",
+              "label": "Ocorrência (2)",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "PHOTO",
+              "displayOrder": 398,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? 4",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "quantidade_ocorrencias"
+                }
+              ]
+            },
+
+            {
+              "description": "justificativa_ocorrencia_2_3",
+              "label": "Justificativa da ocorrência (2)",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "TEXT",
+              "displayOrder": 399,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? 3",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "quantidade_ocorrencias"
+                }
+              ]
+            },
+            {
+              "description": "foto_ocorrencia_2_3",
+              "label": "Ocorrência (2)",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "PHOTO",
+              "displayOrder": 400,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? 3",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "quantidade_ocorrencias"
+                }
+              ]
+            },
+
+            {
+              "description": "justificativa_ocorrencia_2_4",
+              "label": "Justificativa da ocorrência (2)",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "TEXT",
+              "displayOrder": 401,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? 2",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "quantidade_ocorrencias"
+                }
+              ]
+            },
+            {
+              "description": "foto_ocorrencia_2_4",
+              "label": "Ocorrência (2)",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "PHOTO",
+              "displayOrder": 402,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? 2",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "quantidade_ocorrencias"
+                }
+              ]
+            },
+
+
+            {
+              "description": "justificativa_ocorrencia_3_2",
+              "label": "Justificativa da ocorrência (3)",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "TEXT",
+              "displayOrder": 403,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? 4",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "quantidade_ocorrencias"
+                }
+              ]
+            },
+            {
+              "description": "foto_ocorrencia_3_2",
+              "label": "Ocorrência (3)",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "PHOTO",
+              "displayOrder": 404,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? 4",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "quantidade_ocorrencias"
+                }
+              ]
+            },
+
+
+            {
+              "description": "justificativa_ocorrencia_3_3",
+              "label": "Justificativa da ocorrência (3)",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "TEXT",
+              "displayOrder": 405,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? 3",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "quantidade_ocorrencias"
+                }
+              ]
+            },
+            {
+              "description": "foto_ocorrencia_3_3",
+              "label": "Ocorrência (3)",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "PHOTO",
+              "displayOrder": 406,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? 3",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "quantidade_ocorrencias"
+                }
+              ]
+            },
+
+
+
+            {
+              "description": "justificativa_ocorrencia_4_2",
+              "label": "Justificativa da ocorrência (4)",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "TEXT",
+              "displayOrder": 407,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? 4",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "quantidade_ocorrencias"
+                }
+              ]
+            },
+            {
+              "description": "foto_ocorrencia_4_2",
+              "label": "Ocorrência (4)",
+              "mandatory": true,
+              "visible": false,
+              "fieldType": "PHOTO",
+              "displayOrder": 408,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? 4",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "quantidade_ocorrencias"
+                }
+              ]
+            },
+
+
+            
+
+
+            
+            
 
 
 
