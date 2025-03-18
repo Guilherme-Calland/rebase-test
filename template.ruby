@@ -6193,26 +6193,121 @@
               ]
             },
 
+            {
+              "description": "interacao_gestor",
+              "label": "Houve interação com o gestor local da unidade?",
+              "mandatory": true,
+              "visible": true,
+              "fieldType": "BOOLEAN",
+              "displayOrder": 409
+            },
 
-            
+            {
+              "description": "jusitificativa_interacao_gestor",
+              "label": "Justificatica de não interagir",
+              "mandatory": true,
+              "visible": true,
+              "fieldType": "TEXT",
+              "displayOrder": 410,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? Não",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "interacao_gestor"
+                }
+              ]
+            },
 
+            {
+              "description": "gravar_audio",
+              "label": "Gravar Audio?",
+              "mandatory": false,
+              "visible": true,
+              "fieldType": "BOOLEAN",
+              "displayOrder": 411
+            },
 
-            
-            
+            {
+              "description": "audio",
+              "label": "Audio",
+              "mandatory": false,
+              "visible": true,
+              "fieldType": "AUDIO",
+              "displayOrder": 412,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? Sim",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "gravar_audio"
+                }
+              ]
+            },
 
+            {
+              "description": "observacoes",
+              "label": "Observações?",
+              "mandatory": true,
+              "visible": true,
+              "fieldType": "BOOLEAN",
+              "displayOrder": 413
+            },
 
+            {
+              "description": "observacao_foto_1",
+              "label": "Observação (1)",
+              "mandatory": true,
+              "visible": true,
+              "fieldType": "FOTO",
+              "displayOrder": 414,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? Sim",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "observacoes"
+                }
+              ]
+            },
 
+            {
+              "description": "observacao_foto_2",
+              "label": "Observação (2)",
+              "mandatory": true,
+              "visible": true,
+              "fieldType": "FOTO",
+              "displayOrder": 415,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? Sim",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "observacoes"
+                }
+              ]
+            },
 
-            
+            {
+              "description": "observacao_foto_3",
+              "label": "Observação (3)",
+              "mandatory": true,
+              "visible": true,
+              "fieldType": "FOTO",
+              "displayOrder": 416,
+              "fieldRules": [
+                {
+                  "description": "Exibir campo se a resposta for? Sim",
+                  "fieldRuleActionType": "DISPLAY_FIELD",
+                  "sourceFieldDescription": "observacoes"
+                }
+              ]
+            },
 
-
-
-            
-
-
-
-
-
+            {
+              "description": "assinatura_supervisor",
+              "label": "Assinatura do supervisor",
+              "mandatory": true,
+              "visible": true,
+              "fieldType": "SIGNATURE",
+              "displayOrder": 417
+            },
           ]
         }
       ]
