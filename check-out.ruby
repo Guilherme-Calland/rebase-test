@@ -26,7 +26,24 @@
       {
         "displayOrder":1,
         "description": "Realizar Check Out",
-        
+        "fields": [
+          {
+            "displayOrder": 2,
+            "mandatory": true,
+            "visible": true,
+            "description": "nome_colaborador",
+            "label": "Nome do Colaborador",
+            "fieldType": "TEXT"
+          },
+          {
+            "displayOrder": 1,
+            "mandatory": true,
+            "visible": true,
+            "description": "nome_colaborador",
+            "label": "Nome do Colaborador",
+            "fieldType": "TEXT"
+          },
+        ]
       }
     ]
   ]

@@ -658,7 +658,16 @@
               "description": "assinatura_colaborador",
               "label": "Assinatura do Colaborador",
               "fieldType": "SIGNATURE"  
-            }
+            },
+
+            {
+              "description": "geo",
+              "label": "Geo",
+              "mandatory": true,
+              "visible": true,
+              "fieldType": "GEOLOCATION",
+              "displayOrder": 46,
+            },
           ]
         }
       ]
