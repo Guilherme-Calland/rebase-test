@@ -6220,27 +6220,11 @@
 
             {
               "description": "gravar_audio",
-              "label": "Gravar Audio?",
-              "mandatory": false,
-              "visible": true,
-              "fieldType": "BOOLEAN",
-              "displayOrder": 411
-            },
-
-            {
-              "description": "audio",
-              "label": "Audio",
+              "label": "Gravar audio",
               "mandatory": false,
               "visible": true,
               "fieldType": "AUDIO",
-              "displayOrder": 412,
-              "fieldRules": [
-                {
-                  "description": "Exibir campo se a resposta for? Sim",
-                  "fieldRuleActionType": "DISPLAY_FIELD",
-                  "sourceFieldDescription": "gravar_audio"
-                }
-              ]
+              "displayOrder": 411,
             },
 
             {
@@ -6249,7 +6233,7 @@
               "mandatory": true,
               "visible": true,
               "fieldType": "BOOLEAN",
-              "displayOrder": 413
+              "displayOrder": 412
             },
 
             {
@@ -6258,7 +6242,7 @@
               "mandatory": true,
               "visible": true,
               "fieldType": "FOTO",
-              "displayOrder": 414,
+              "displayOrder": 413,
               "fieldRules": [
                 {
                   "description": "Exibir campo se a resposta for? Sim",
@@ -6274,7 +6258,7 @@
               "mandatory": true,
               "visible": true,
               "fieldType": "FOTO",
-              "displayOrder": 415,
+              "displayOrder": 414,
               "fieldRules": [
                 {
                   "description": "Exibir campo se a resposta for? Sim",
@@ -6290,7 +6274,7 @@
               "mandatory": true,
               "visible": true,
               "fieldType": "FOTO",
-              "displayOrder": 416,
+              "displayOrder": 415,
               "fieldRules": [
                 {
                   "description": "Exibir campo se a resposta for? Sim",
@@ -6306,7 +6290,7 @@
               "mandatory": true,
               "visible": true,
               "fieldType": "SIGNATURE",
-              "displayOrder": 417
+              "displayOrder": 416
             },
           ]
         }
