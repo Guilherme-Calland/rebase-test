@@ -19,14 +19,14 @@
   ],
   "tasks": [
     {
-      "description": "Ronda diária",
+      "description": "Realizar Ronda Diária",
       "executionOrder" : 1,
       "whenTaskStatusIs": "COMPLETED",
       "processStatusGoesTo": ["Ronda realizada"]
       "actions": [
         {
           "displayOrder": 1,
-          "description": "COMPLETED",
+          "description": "Realizar Ronda Diária",
           "fields": [
             {
               "description": "qr_code_local",

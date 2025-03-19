@@ -19,14 +19,14 @@
   ],
   "tasks": [
     {
-      "description": "Check In",
+      "description": "Realizar Check In",
       "executionOrder": 1,
       "whenStatusIs": "COMPLETED",
       "processStatusGoesTo": ["Check In realizada"],
       "actions": [
         {
           "displayOrder": 1,
-          "description": "COMPLETED",
+          "description": "Relizar Check In",
           "fields": [
             {
               "displayOrder": 1,
