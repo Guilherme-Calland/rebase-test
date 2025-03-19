@@ -41,7 +41,72 @@
             "label": "Nome do Colaborador",
             "fieldType": "TEXT"
           },
+          {
+            "mandatory": true,
+            "visible": true,
+            "description": "re_colabotador",
+            "label": "RE do Colaborador",
+            "fieldType": "TEXT"
+          },
+          {
+            "mandatory": false,
+            "visible": true,
+            "description": "quantas_estacoes",
+            "label": "Quantas estações de cadastro em operação?",
+            "fieldType": "LIST",
+            "fieldValues": [
+              { "value": "Todas" },
+              { "value": "Outras" },
+            ]
+          },
+          {
+            "mandatory": false,
+            "visible": true,
+            "description": "descricao_cadastro_operacao",
+            "label": "Quantas estações de cadastro em operação? Descreva",
+            "fieldType": "TEXT"
+          },
 
+          {
+            "mandatory": false,
+            "visible": true,
+            "description": "quantidade_cadastros_finalizados",
+            "label": "Quantos cadastros finalizados?",
+            "fieldType": "TEXT",
+          },
+
+          {
+            "mandatory": false,
+            "visible": true,
+            "description": "quantidade_atendimentos_realizados",
+            "label": "Quantos atendimentos realizados?",
+            "fieldType": "TEXT",
+          },
+
+          {
+            "mandatory": false,
+            "visible": true,
+            "description": "gravar_audio",
+            "label": "Gravar Audio",
+            "fieldType": "AUDIO",
+          },
+
+
+          {
+            "mandatory": false,
+            "visible": true,
+            "description": "observacoes",
+            "label": "Observações?",
+            "fieldType": "TEXT",
+          },
+
+          {
+            "mandatory": true,
+            "visible": true,
+            "description": "assinatura_colaborador",
+            "label": "Assinatura do colaborador",
+            "fieldType": "SIGNATURE",
+          },
         ]
       }
     ]
