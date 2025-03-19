@@ -28,21 +28,20 @@
         "description": "Realizar Check Out",
         "fields": [
           {
-            "displayOrder": 2,
+            "description": "geo",
+            "label": "Geo",
             "mandatory": true,
             "visible": true,
-            "description": "nome_colaborador",
-            "label": "Nome do Colaborador",
-            "fieldType": "TEXT"
+            "fieldType": "GEOLOCATION",
           },
           {
-            "displayOrder": 1,
             "mandatory": true,
             "visible": true,
             "description": "nome_colaborador",
             "label": "Nome do Colaborador",
             "fieldType": "TEXT"
           },
+
         ]
       }
     ]
