@@ -4641,7 +4641,6 @@
               "mandatory": true,
               "visible": true,
               "fieldType": "TEXT",
-              "displayOrder": 310,
               "fieldRules": [
                 {
                   "description": "Exibir campo se a resposta for? 10",
@@ -4656,7 +4655,6 @@
               "mandatory": true,
               "visible": true,
               "fieldType": "PHOTO",
-              "displayOrder": 311,
               "fieldRules": [
                 {
                   "description": "Exibir campo se a resposta for? 10",
@@ -4671,7 +4669,6 @@
               "mandatory": true,
               "visible": true,
               "fieldType": "TEXT",
-              "displayOrder": 312,
               "fieldRules": [
                 {
                   "description": "Exibir campo se a resposta for? 9",
@@ -4686,7 +4683,6 @@
               "mandatory": true,
               "visible": true,
               "fieldType": "PHOTO",
-              "displayOrder": 313,
               "fieldRules": [
                 {
                   "description": "Exibir campo se a resposta for? 9",
@@ -4701,7 +4697,6 @@
               "mandatory": true,
               "visible": true,
               "fieldType": "TEXT",
-              "displayOrder": 314,
               "fieldRules": [
                 {
                   "description": "Exibir campo se a resposta for? 8",
@@ -4716,7 +4711,6 @@
               "mandatory": true,
               "visible": true,
               "fieldType": "PHOTO",
-              "displayOrder": 315,
               "fieldRules": [
                 {
                   "description": "Exibir campo se a resposta for? 8",
@@ -4731,7 +4725,6 @@
               "mandatory": true,
               "visible": true,
               "fieldType": "TEXT",
-              "displayOrder": 316,
               "fieldRules": [
                 {
                   "description": "Exibir campo se a resposta for? 7",
@@ -4746,7 +4739,6 @@
               "mandatory": true,
               "visible": true,
               "fieldType": "PHOTO",
-              "displayOrder": 317,
               "fieldRules": [
                 {
                   "description": "Exibir campo se a resposta for? 7",
@@ -4761,7 +4753,6 @@
               "mandatory": true,
               "visible": true,
               "fieldType": "TEXT",
-              "displayOrder": 318,
               "fieldRules": [
                 {
                   "description": "Exibir campo se a resposta for? 6",
@@ -4776,7 +4767,6 @@
               "mandatory": true,
               "visible": true,
               "fieldType": "PHOTO",
-              "displayOrder": 319,
               "fieldRules": [
                 {
                   "description": "Exibir campo se a resposta for? 6",
@@ -4791,7 +4781,6 @@
               "mandatory": true,
               "visible": true,
               "fieldType": "TEXT",
-              "displayOrder": 320,
               "fieldRules": [
                 {
                   "description": "Exibir campo se a resposta for? 5",
@@ -4806,7 +4795,6 @@
               "mandatory": true,
               "visible": true,
               "fieldType": "PHOTO",
-              "displayOrder": 321,
               "fieldRules": [
                 {
                   "description": "Exibir campo se a resposta for? 5",
@@ -4824,7 +4812,6 @@
               "mandatory": true,
               "visible": true,
               "fieldType": "TEXT",
-              "displayOrder": 322,
               "fieldRules": [
                 {
                   "description": "Exibir campo se a resposta for? 12",
@@ -4839,7 +4826,6 @@
               "mandatory": true,
               "visible": true,
               "fieldType": "PHOTO",
-              "displayOrder": 323,
               "fieldRules": [
                 {
                   "description": "Exibir campo se a resposta for? 12",
@@ -4856,7 +4842,6 @@
               "mandatory": true,
               "visible": true,
               "fieldType": "TEXT",
-              "displayOrder": 324,
               "fieldRules": [
                 {
                   "description": "Exibir campo se a resposta for? 11",
@@ -4871,7 +4856,6 @@
               "mandatory": true,
               "visible": true,
               "fieldType": "PHOTO",
-              "displayOrder": 325,
               "fieldRules": [
                 {
                   "description": "Exibir campo se a resposta for? 11",
@@ -4889,7 +4873,6 @@
               "mandatory": true,
               "visible": true,
               "fieldType": "TEXT",
-              "displayOrder": 326,
               "fieldRules": [
                 {
                   "description": "Exibir campo se a resposta for? 10",
@@ -4904,7 +4887,6 @@
               "mandatory": true,
               "visible": true,
               "fieldType": "PHOTO",
-              "displayOrder": 327,
               "fieldRules": [
                 {
                   "description": "Exibir campo se a resposta for? 10",
@@ -4919,7 +4901,6 @@
               "mandatory": true,
               "visible": true,
               "fieldType": "TEXT",
-              "displayOrder": 328,
               "fieldRules": [
                 {
                   "description": "Exibir campo se a resposta for? 9",
@@ -4934,7 +4915,6 @@
               "mandatory": true,
               "visible": true,
               "fieldType": "PHOTO",
-              "displayOrder": 329,
               "fieldRules": [
                 {
                   "description": "Exibir campo se a resposta for? 9",
@@ -4949,7 +4929,6 @@
               "mandatory": true,
               "visible": true,
               "fieldType": "TEXT",
-              "displayOrder": 330,
               "fieldRules": [
                 {
                   "description": "Exibir campo se a resposta for? 8",
@@ -4964,7 +4943,6 @@
               "mandatory": true,
               "visible": true,
               "fieldType": "PHOTO",
-              "displayOrder": 331,
               "fieldRules": [
                 {
                   "description": "Exibir campo se a resposta for? 8",
@@ -4979,7 +4957,6 @@
               "mandatory": true,
               "visible": true,
               "fieldType": "TEXT",
-              "displayOrder": 332,
               "fieldRules": [
                 {
                   "description": "Exibir campo se a resposta for? 7",
@@ -4994,7 +4971,6 @@
               "mandatory": true,
               "visible": true,
               "fieldType": "PHOTO",
-              "displayOrder": 333,
               "fieldRules": [
                 {
                   "description": "Exibir campo se a resposta for? 7",
@@ -5009,7 +4985,6 @@
               "mandatory": true,
               "visible": true,
               "fieldType": "TEXT",
-              "displayOrder": 334,
               "fieldRules": [
                 {
                   "description": "Exibir campo se a resposta for? 6",
@@ -5024,7 +4999,6 @@
               "mandatory": true,
               "visible": true,
               "fieldType": "PHOTO",
-              "displayOrder": 335,
               "fieldRules": [
                 {
                   "description": "Exibir campo se a resposta for? 6",
@@ -5042,7 +5016,6 @@
               "mandatory": true,
               "visible": true,
               "fieldType": "TEXT",
-              "displayOrder": 336,
               "fieldRules": [
                 {
                   "description": "Exibir campo se a resposta for? 12",
@@ -5057,7 +5030,6 @@
               "mandatory": true,
               "visible": true,
               "fieldType": "PHOTO",
-              "displayOrder": 337,
               "fieldRules": [
                 {
                   "description": "Exibir campo se a resposta for? 12",
@@ -5072,7 +5044,6 @@
               "mandatory": true,
               "visible": true,
               "fieldType": "TEXT",
-              "displayOrder": 338,
               "fieldRules": [
                 {
                   "description": "Exibir campo se a resposta for? 11",
@@ -5087,7 +5058,6 @@
               "mandatory": true,
               "visible": true,
               "fieldType": "PHOTO",
-              "displayOrder": 339,
               "fieldRules": [
                 {
                   "description": "Exibir campo se a resposta for? 11",
@@ -5104,7 +5074,6 @@
               "mandatory": true,
               "visible": true,
               "fieldType": "TEXT",
-              "displayOrder": 340,
               "fieldRules": [
                 {
                   "description": "Exibir campo se a resposta for? 10",
@@ -5119,7 +5088,6 @@
               "mandatory": true,
               "visible": true,
               "fieldType": "PHOTO",
-              "displayOrder": 341,
               "fieldRules": [
                 {
                   "description": "Exibir campo se a resposta for? 10",
@@ -5134,7 +5102,6 @@
               "mandatory": true,
               "visible": true,
               "fieldType": "TEXT",
-              "displayOrder": 342,
               "fieldRules": [
                 {
                   "description": "Exibir campo se a resposta for? 9",
@@ -5149,7 +5116,6 @@
               "mandatory": true,
               "visible": true,
               "fieldType": "PHOTO",
-              "displayOrder": 343,
               "fieldRules": [
                 {
                   "description": "Exibir campo se a resposta for? 9",
