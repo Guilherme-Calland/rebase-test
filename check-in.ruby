@@ -29,7 +29,13 @@
           "description": "Relizar Check In",
           "fields": [
             {
-              "displayOrder": 1,
+              "description": "geo",
+              "label": "Geo",
+              "mandatory": true,
+              "visible": true,
+              "fieldType": "GEOLOCATION",
+            },
+            {
               "mandatory": true,
               "visible": true,
               "description": "nome_colaborador",
@@ -37,7 +43,6 @@
               "fieldType": "TEXT",
             },
             {
-              "displayOrder": 2,
               "mandatory": true,
               "visible": true,
               "description": "re_colaborador",
@@ -45,7 +50,6 @@
               "fieldType": "TEXT",
             },
             {
-              "displayOrder": 3,
               "mandatory": false,
               "visible": true,
               "description": "periodo",
@@ -58,7 +62,6 @@
             },
 
             {
-              "displayOrder": 4,
               "mandatory": false,
               "visible": true,
               "description": "quantidade_estacoes",
@@ -71,7 +74,6 @@
             },
 
             {
-              "displayOrder": 5,
               "mandatory": true,
               "visible": true,
               "description": "condicao_funcionamento_estacoes",
@@ -84,7 +86,6 @@
             },
 
             {
-              "displayOrder": 6,
               "mandatory": true,
               "visible": true,
               "description": "descricao_funcionamento",
@@ -98,7 +99,6 @@
             },
 
             {
-              "displayOrder": 7,
               "mandatory": false,
               "visible": true,
               "description": "fora_de_funcionamento",
@@ -113,7 +113,6 @@
             },
 
             {
-              "displayOrder": 8,
               "mandatory": false,
               "visible": true,
               "description": "descricao_problema",
@@ -127,7 +126,6 @@
             }, 
 
             {
-              "displayOrder": 9,
               "mandatory": true,
               "visible": true,
               "description": "existencia_ocorrencias",
@@ -136,7 +134,6 @@
             },
 
             {
-              "displayOrder": 10,
               "mandatory": true,
               "visible": true,
               "description": "quantidade_ocorrencias",
@@ -152,7 +149,6 @@
             },
 
             {
-              "displayOrder": 11,
               "mandatory": true,
               "visible": true,
               "description": "descricao_ocorrencia_1",
@@ -166,7 +162,6 @@
             },
 
             {
-              "displayOrder": 12,
               "mandatory": true,
               "visible": true,
               "description": "foto_ocorrencia_1",
@@ -180,7 +175,6 @@
             },
 
             {
-              "displayOrder": 13,
               "mandatory": true,
               "visible": true,
               "description": "descricao_ocorrencia_2",
@@ -194,7 +188,6 @@
             },
 
             {
-              "displayOrder": 14,
               "mandatory": true,
               "visible": true,
               "description": "foto_ocorrencia_2",
@@ -208,7 +201,6 @@
             },
 
             {
-              "displayOrder": 15,
               "mandatory": true,
               "visible": true,
               "description": "descricao_ocorrencia_3",
@@ -222,7 +214,6 @@
             },
 
             {
-              "displayOrder": 16,
               "mandatory": true,
               "visible": true,
               "description": "foto_ocorrencia_3",
@@ -236,7 +227,6 @@
             },
 
             {
-              "displayOrder": 17,
               "mandatory": true,
               "visible": true,
               "description": "descricao_ocorrencia_4",
@@ -250,7 +240,6 @@
             },
 
             {
-              "displayOrder": 18,
               "mandatory": true,
               "visible": true,
               "description": "foto_ocorrencia_4",
@@ -264,7 +253,6 @@
             },
 
             {
-              "displayOrder": 19,
               "mandatory": true,
               "visible": true,
               "description": "descricao_ocorrencia_5",
@@ -278,7 +266,6 @@
             },
 
             {
-              "displayOrder": 20,
               "mandatory": true,
               "visible": true,
               "description": "foto_ocorrencia_5",
@@ -292,7 +279,6 @@
             },
 
             {
-              "displayOrder": 21,
               "mandatory": true,
               "visible": true,
               "description": "descricao_ocorrencia_1_2",
@@ -306,7 +292,6 @@
             },
 
             {
-              "displayOrder": 22,
               "mandatory": true,
               "visible": true,
               "description": "foto_ocorrencia_1_2",
@@ -320,7 +305,6 @@
             },
 
             {
-              "displayOrder": 23,
               "mandatory": true,
               "visible": true,
               "description": "descricao_ocorrencia_1_3",
@@ -334,7 +318,6 @@
             },
 
             {
-              "displayOrder": 24,
               "mandatory": true,
               "visible": true,
               "description": "foto_ocorrencia_1_3",
@@ -347,7 +330,6 @@
               ]
             },
             {
-              "displayOrder": 25,
               "mandatory": true,
               "visible": true,
               "description": "descricao_ocorrencia_1_4",
@@ -362,7 +344,6 @@
               ]
             },
             {
-              "displayOrder": 26,
               "mandatory": true,
               "visible": true,
               "description": "foto_ocorrencia_1_4",
@@ -380,7 +361,6 @@
 
 
             {
-              "displayOrder": 27,
               "mandatory": true,
               "visible": true,
               "description": "descricao_ocorrencia_1_5",
@@ -395,7 +375,6 @@
               ]
             },
             {
-              "displayOrder": 28,
               "mandatory": true,
               "visible": true,
               "description": "foto_ocorrencia_1_5",
@@ -412,7 +391,6 @@
 
 
             {
-              "displayOrder": 29,
               "mandatory": true,
               "visible": true,
               "description": "descricao_ocorrencia_2_2",
@@ -427,7 +405,6 @@
               ]
             },
             {
-              "displayOrder": 30,
               "mandatory": true,
               "visible": true,
               "description": "foto_ocorrencia_2_2",
@@ -445,7 +422,6 @@
 
 
             {
-              "displayOrder": 31,
               "mandatory": true,
               "visible": true,
               "description": "descricao_ocorrencia_2_3",
@@ -460,7 +436,6 @@
               ]
             },
             {
-              "displayOrder": 32,
               "mandatory": true,
               "visible": true,
               "description": "foto_ocorrencia_2_3",
@@ -477,7 +452,6 @@
 
 
             {
-              "displayOrder": 33,
               "mandatory": true,
               "visible": true,
               "description": "descricao_ocorrencia_2_4",
@@ -492,7 +466,6 @@
               ]
             },
             {
-              "displayOrder": 34,
               "mandatory": true,
               "visible": true,
               "description": "foto_ocorrencia_2_4",
@@ -508,7 +481,6 @@
             },
 
             {
-              "displayOrder": 35,
               "mandatory": true,
               "visible": true,
               "description": "descricao_ocorrencia_3_2",
@@ -523,8 +495,6 @@
               ]
             },
             {
-              "displayOrder": 36,
-              "mandatory": true,
               "visible": true,
               "description": "foto_ocorrencia_3_2",
               "label": "Foto da ocorrência (3)",
@@ -539,7 +509,6 @@
             },
 
             {
-              "displayOrder": 37,
               "mandatory": true,
               "visible": true,
               "description": "descricao_ocorrencia_3_3",
@@ -554,7 +523,6 @@
               ]
             },
             {
-              "displayOrder": 38,
               "mandatory": true,
               "visible": true,
               "description": "foto_ocorrencia_3_3",
@@ -573,7 +541,6 @@
 
 
             {
-              "displayOrder": 39,
               "mandatory": true,
               "visible": true,
               "description": "descricao_ocorrencia_4_2",
@@ -588,7 +555,6 @@
               ]
             },
             {
-              "displayOrder": 40,
               "mandatory": true,
               "visible": true,
               "description": "foto_ocorrencia_4_2",
@@ -604,8 +570,6 @@
             },
 
             {
-              "displayOrder": 41,
-              "mandatory": true,
               "visible": true,
               "description": "interacao_gestor",
               "label": "Houve interação com o gestor local da unidade sobre a ocorrência?",
@@ -618,7 +582,6 @@
             },
 
             {
-              "displayOrder": 42,
               "mandatory": true,
               "visible": true,
               "description": "justificativa_nao_interacao",
@@ -634,7 +597,6 @@
             },
 
             {
-              "displayOrder": 43,
               "mandatory": false,
               "visible": true,
               "description": "gravar_audio",
@@ -643,7 +605,6 @@
             },
 
             {
-              "displayOrder": 44,
               "mandatory": true,
               "visible": true,
               "description": "oberservacoes",
@@ -652,21 +613,11 @@
             },
 
             {
-              "displayOrder": 45,
               "mandatory": true,
               "visible": true,
               "description": "assinatura_colaborador",
               "label": "Assinatura do Colaborador",
               "fieldType": "SIGNATURE"  
-            },
-
-            {
-              "description": "geo",
-              "label": "Geo",
-              "mandatory": true,
-              "visible": true,
-              "fieldType": "GEOLOCATION",
-              "displayOrder": 46,
             },
           ]
         }
