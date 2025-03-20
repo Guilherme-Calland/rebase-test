@@ -1,16 +1,25 @@
 {
   "name": "Check In",
   "description": "Check In",
+  "group": "Líder",
   "processStatus": [
     {
-      "description": "Check In não realizada",
+      "important": false,
+      "terminalStatus": false,
+      "statusMode": "NORMAL",
+      "mainStream": true,
+      "description": "Check In não realizado",
       "limitValue":3,
       "timeLimitRule":10,
       "unitOfTimeType":"MINUTES",
       "subStatus":[]
     },
     {
-      "description": "Check In realizada",
+      "important": false,
+      "terminalStatus": false,
+      "statusMode": "NORMAL",
+      "mainStream": true,
+      "description": "Check In realizado",
       "limitValue":3,
       "timeLimitRule":10,
       "unitOfTimeType":"MINUTES",
@@ -22,11 +31,16 @@
       "description": "Realizar Check In",
       "executionOrder": 1,
       "whenStatusIs": "COMPLETED",
+      "groupName": "Líder",
       "processStatusGoesTo": ["Check In realizada"],
       "actions": [
         {
           "displayOrder": 1,
           "description": "Relizar Check In",
+          "possibleNextActions": [],
+          "setTaskStatus": "COMPLETED",
+          "isMobile": true,
+          "events": [],
           "fields": [
             {
               "description": "geo",
