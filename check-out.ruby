@@ -1,8 +1,13 @@
 {
   "name": "Check Out",
   "description": "Check Out",
+  "group": "Líder",
   "processStatus": [
     {
+      "important": false,
+      "terminalStatus": false,
+      "statusMode": "NORMAL",
+      "mainStream": true,
       "description": "Check Out não realizado",
       "limitValue":3,
       "timeLimitRule":10,
@@ -10,6 +15,10 @@
       "subStatus":[]
     },
     {
+      "important": false,
+      "terminalStatus": false,
+      "statusMode": "NORMAL",
+      "mainStream": true,
       "description": "Check Out realizado",
       "limitValue":3,
       "timeLimitRule":10,
@@ -19,13 +28,18 @@
   ],
   "tasks": [
     "executionOrder": 1,
-    "description": "Realizar Check Out",
+    "description": "Check Out",
     "whenStatusIs": "COMPLETED",
-    "processStatusGoesTo": "[Check Out realizado]",
+    "groupName": "Líder",
+    "processStatusGoesTo": ["Check Out realizado"],
     "actions": [
       {
         "displayOrder":1,
         "description": "Realizar Check Out",
+        "possibleNextActions": [],
+        "setTaskStatus": "COMPLETED",
+        "isMobile": true,
+        "events": [],
         "fields": [
           {
             "description": "geo",

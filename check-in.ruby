@@ -28,7 +28,7 @@
   ],
   "tasks": [
     {
-      "description": "Realizar Check In",
+      "description": "Check In",
       "executionOrder": 1,
       "whenStatusIs": "COMPLETED",
       "groupName": "Líder",
@@ -591,7 +591,7 @@
               "fieldValues": [
                 { "value": "Sim" },
                 { "value": "Não" },
-                { "value": "Não se aplica" },
+                { "value": "Não se aplica" }
               ]
             },
 
@@ -615,7 +615,7 @@
               "visible": true,
               "description": "gravar_audio",
               "label": "Gravar Audio",
-              "fieldType": "AUDIO",
+              "fieldType": "AUDIO"
             },
 
             {
@@ -623,7 +623,7 @@
               "visible": true,
               "description": "oberservacoes",
               "label": "Observações",
-              "fieldType": "TEXT",
+              "fieldType": "TEXT"
             },
 
             {
