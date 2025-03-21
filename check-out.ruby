@@ -113,7 +113,7 @@
                             "mandatory": false,
                             "visible": true,
                             "description": "gravar_audio",
-                            "label": "Gravar Audio",
+                            "label": "Gravar Audio?",
                             "fieldType": "AUDIO"
                         },
                         {
