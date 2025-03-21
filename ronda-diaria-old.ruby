@@ -55,13 +55,27 @@
                         {
                             "description": "local",
                             "label": "Local",
-                            "mandatory": true,
+                            "mandatory": false,
                             "visible": true,
                             "fieldType": "TEXT",
                             "fieldRules": [
                                 {
                                     "description": "-recebe texto do QRCode lido-",
                                     "sourceFieldDescription": "qr_code_local",
+                                    "fieldRuleActionType": "RECEIVE_VALUE"
+                                }
+                            ]
+                        },
+                        {
+                            "description": "geo",
+                            "label": "Geo",
+                            "mandatory": false,
+                            "visible": true,
+                            "fieldType": "GEOLOCATION",
+                            "fieldRules": [
+                                {
+                                    "description": "-busca a localizacao geografica apos receber local-",
+                                    "sourceFieldDescription": "local",
                                     "fieldRuleActionType": "RECEIVE_VALUE"
                                 }
                             ]
@@ -79,64 +93,14 @@
                             "mandatory": false,
                             "visible": true,
                             "fieldType": "GEOLOCATION",
+                            "fieldRules": [
+                                {
+                                    "description": "-busca a localizacao geografica apos receber local-",
+                                    "sourceFieldDescription": "local",
+                                    "fieldRuleActionType": "RECEIVE_VALUE"
+                                }
+                            ]
                         },
-
-                        ######
-                        {
-                            "description": "nome_supervisor",
-                            "label": "Nome do Supervisor",
-                            "mandatory": true,
-                            "visible": true,
-                            "fieldType": "TEXT"
-                        },
-                        {
-                            "description": "re_supervisor",
-                            "label": "RE do Supervisor",
-                            "mandatory": true,
-                            "visible": true,
-                            "fieldType": "TEXT"
-                        },
-
-                        {
-                          "description": "cadastrador_atrasado",
-                          "label": "Algum  cadastrador chegou atrasado?",
-                          "mandatory": true,
-                          "visible": true,
-                          "fieldType": "BOOLEAN",
-                        },
-
-                        {
-                          "description": "quantidade_cadastradores_atrasados",
-                          "label": "Quantos cadastradores chegaram atrasados?",
-                          "mandatory": true,
-                          "visible": true,
-                          "fieldType": "LIST",
-                          "fieldRules": [
-                            {
-                              "description": "Exibir campo se a resposta for? Sim",
-                              "fieldRuleActionType": "DISPLAY_FIELD",
-                              "sourceFieldDescription": "cadastrador_atrasado"
-                            }
-                          ],
-                          "fieldValues": [
-                            { "value": "1" },
-                            { "value": "2" },
-                            { "value": "3" },
-                            { "value": "4" },
-                            { "value": "5" },
-                            { "value": "6" },
-                            { "value": "7" },
-                            { "value": "8" },
-                            { "value": "9" },
-                            { "value": "10" },
-                            { "value": "11" },
-                            { "value": "12" },
-                            { "value": "13" }
-                          ]
-                        }
-
-                        ########
-
                         {
                             "description": "justificativa_atraso_cadastrador_1",
                             "label": "Justificativa de atraso (1)",
@@ -5850,7 +5814,6 @@
                             "visible": true,
                             "fieldType": "BOOLEAN"
                         },
-                        
                         {
                             "description": "observacao_foto_1",
                             "label": "Observação (1)",
@@ -5892,29 +5855,6 @@
                                     "sourceFieldDescription": "observacoes"
                                 }
                             ]
-                        },
-
-                        {
-                            "description": "justificativa_obersevacao",
-                            "label": "Sem observaçoes, mande um áudio justificando",
-                            "mandatory": true,
-                            "visible": true,
-                            "fieldType": "AUDIO",
-                            "fieldRules": [
-                              {
-                                "description": "Exibir campo se a resposta for? Não",
-                                "fieldRuleActionType": "DISPLAY_FIELD",
-                                "sourceFieldDescription": "observacoes"
-                              }
-                           ]
-                        },
-
-                        {
-                          "description": "assinatura_supervisor",
-                          "label": "Assinatura do supervisor",
-                          "mandatory": true,
-                          "visible": true,
-                          "fieldType": "SIGNATURE",
                         }
                        
                     ]

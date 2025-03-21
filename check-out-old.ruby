@@ -86,14 +86,7 @@
                             "visible": true,
                             "description": "descricao_cadastro_operacao",
                             "label": "Quantas estações de cadastro em operação? Descreva",
-                            "fieldType": "TEXT",
-                            "fieldRules": [
-                              {
-                                "description": "Exibir campo se a resposta for? Outras",
-                                "fieldRuleActionType": "DISPLAY_FIELD",
-                                "sourceFieldDescription": "quantas_estacoes"
-                              }
-                            ]
+                            "fieldType": "TEXT"
                         },
                         {
                             "mandatory": false,
