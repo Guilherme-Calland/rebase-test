@@ -96,6 +96,24 @@
                                 }
                             ]
                         },
+
+
+                        {
+                            "mandatory": false,
+                            "visible": true,
+                            "description": "estacoes_escrita",
+                            "label": "Descrição das estações em funcionamento",
+                            "fieldType": "TEXT",
+                            "fieldRules": [
+                                {
+                                    "description": "Exibir campo se a resposta for? Escrita por extenso",
+                                    "fieldRuleActionType": "DISPLAY_FIELD",
+                                    "sourceFieldDescription": "quantidade_estacoes"
+                                }
+                            ]
+                        },
+
+
                         {
                             "mandatory": true,
                             "visible": true,

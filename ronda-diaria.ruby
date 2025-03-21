@@ -81,7 +81,6 @@
                             "fieldType": "GEOLOCATION",
                         },
 
-                        ######
                         {
                             "description": "nome_supervisor",
                             "label": "Nome do Supervisor",
@@ -134,9 +133,6 @@
                             { "value": "13" }
                           ]
                         }
-
-                        ########
-
                         {
                             "description": "justificativa_atraso_cadastrador_1",
                             "label": "Justificativa de atraso (1)",
