@@ -39,7 +39,7 @@
             "actions": [
                 {
                     "displayOrder": 1,
-                    "description": "Realizar Check In",
+                    "description": "Relizar Check In",
                     "possibleNextActions": [],
                     "setTaskStatus": "COMPLETED",
                     "isMobile": true,
@@ -136,7 +136,7 @@
                                     "value": "Problemas no terminal"
                                 },
                                 {
-                                    "value": "Ausência do link internet"
+                                    "value": "Ausência dolink internet"
                                 },
                                 {
                                     "value": "Falta de colaborador"
@@ -188,13 +188,6 @@
                                 },
                                 {
                                     "value": "5"
-                                }
-                            ],
-                            "fieldRules": [
-                                {
-                                    "description": "Exibir campo se a resposta for? Sim",
-                                    "fieldRuleActionType": "DISPLAY_FIELD",
-                                    "sourceFieldDescription": "existencia_ocorrencias"
                                 }
                             ]
                         },
