@@ -96,7 +96,8 @@
                         },
                         {
                             "description": "cadastrador_atrasado",
-                            "label": "Algum  cadastrador chegou atrasado?",
+                            # "label": "Algum  cadastrador chegou atrasado?",
+                            "label": "Algum cadastrador chegou atrasado?",
                             "mandatory": true,
                             "visible": true,
                             "fieldType": "BOOLEAN"

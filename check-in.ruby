@@ -674,7 +674,8 @@
                             "fieldType": "AUDIO"
                         },
                         {
-                            "mandatory": false,
+                            #
+                            "mandatory": true,
                             "visible": true,
                             "description": "oberservacoes",
                             "label": "Observações",
