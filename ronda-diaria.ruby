@@ -5872,56 +5872,68 @@
                             "fieldType": "BOOLEAN"
                         },
                         {
-                            "description": "observacao_foto_1",
-                            "label": "Observação (1)",
-                            "mandatory": true,
+                            "description": "observacoes_descricao",
+                            "label": "Descrição da observação",
+                            "mandatory": false,
                             "visible": true,
-                            "fieldType": "PHOTO",
-                            "fieldRules": [
-                                {
-                                    "description": "Exibir campo se a resposta for? Sim",
-                                    "fieldRuleActionType": "DISPLAY_FIELD",
-                                    "sourceFieldDescription": "observacoes"
-                                }
-                            ]
-                        },
-                        {
-                            "description": "observacao_foto_2",
-                            "label": "Observação (2)",
-                            "mandatory": true,
-                            "visible": true,
-                            "fieldType": "PHOTO",
-                            "fieldRules": [
-                                {
-                                    "description": "Exibir campo se a resposta for? Sim",
-                                    "fieldRuleActionType": "DISPLAY_FIELD",
-                                    "sourceFieldDescription": "observacoes"
-                                }
-                            ]
-                        },
-                        {
-                            "description": "observacao_foto_3",
-                            "label": "Observação (3)",
-                            "mandatory": true,
-                            "visible": true,
-                            "fieldType": "PHOTO",
-                            "fieldRules": [
-                                {
-                                    "description": "Exibir campo se a resposta for? Sim",
-                                    "fieldRuleActionType": "DISPLAY_FIELD",
-                                    "sourceFieldDescription": "observacoes"
-                                }
-                            ]
-                        },
+                            "fieldType": "BOOLEAN",
+                            "fieldRules": {
+                                "description": "Exibir campo se a resposta for? Sim",
+                                "fieldRuleActionType": "DISPLAY_FIELD",
+                                "sourceFieldDescription": "observacoes"
+                            }
+                        }
+                        # {
+                        #     "description": "observacao_foto_1",
+                        #     "label": "Observação (1)",
+                        #     "mandatory": true,
+                        #     "visible": true,
+                        #     "fieldType": "PHOTO",
+                        #     "fieldRules": [
+                        #         {
+                        #             "description": "Exibir campo se a resposta for? Sim",
+                        #             "fieldRuleActionType": "DISPLAY_FIELD",
+                        #             "sourceFieldDescription": "observacoes"
+                        #         }
+                        #     ]
+                        # },
+                        # {
+                        #     "description": "observacao_foto_2",
+                        #     "label": "Observação (2)",
+                        #     "mandatory": true,
+                        #     "visible": true,
+                        #     "fieldType": "PHOTO",
+                        #     "fieldRules": [
+                        #         {
+                        #             "description": "Exibir campo se a resposta for? Sim",
+                        #             "fieldRuleActionType": "DISPLAY_FIELD",
+                        #             "sourceFieldDescription": "observacoes"
+                        #         }
+                        #     ]
+                        # },
+                        # {
+                        #     "description": "observacao_foto_3",
+                        #     "label": "Observação (3)",
+                        #     "mandatory": true,
+                        #     "visible": true,
+                        #     "fieldType": "PHOTO",
+                        #     "fieldRules": [
+                        #         {
+                        #             "description": "Exibir campo se a resposta for? Sim",
+                        #             "fieldRuleActionType": "DISPLAY_FIELD",
+                        #             "sourceFieldDescription": "observacoes"
+                        #         }
+                        #     ]
+                        # },
                         {
                             "description": "justificativa_obersevacao",
-                            "label": "Sem observaçoes, mande um áudio justificando",
-                            "mandatory": true,
+                            "label": "Descreva a observação",
+                            "mandatory": false,
                             "visible": true,
                             "fieldType": "AUDIO",
                             "fieldRules": [
                                 {
-                                    "description": "Exibir campo se a resposta for? Não",
+                                    "description": "Exibir campo se a resposta for? Sim",
                                     "fieldRuleActionType": "DISPLAY_FIELD",
                                     "sourceFieldDescription": "observacoes"
                                 }
