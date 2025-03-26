@@ -5866,7 +5866,8 @@
                         {
                             "description": "observacoes",
                             "label": "Observações?",
-                            "mandatory": true,
+                            # "mandatory": true,
+                            "mandatory": false,
                             "visible": true,
                             "fieldType": "BOOLEAN"
                         },
